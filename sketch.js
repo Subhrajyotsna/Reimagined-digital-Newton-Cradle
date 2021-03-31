@@ -64,6 +64,11 @@ function keyPressed()
   {
     Body.applyForce(bob1.body,bob3.body.position,{x:-605,y:-300});
   }
+	
+	 if(keyCode === DOWN_ARROW)
+  {
+    Body.applyForce(bob5.body,bob3.body.position,{x:605,y:300});
+  }
 }
 
 
